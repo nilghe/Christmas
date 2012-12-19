@@ -3,37 +3,37 @@
         {
             "id": "nilghe4",
             "name": "Mom",
-            "message": "Love you so much! I had so much fun this year taking you to Walt Disney World. Cannot wait to do it again! LOVE YOU!"
+            "message": "Love you so much! Cannot wait to spend Christmas with you!"
         },
         {
             "id": "himpster2",
             "name": "John Himpe",
-            "message": "Merry Christmas John! Going to be fun in Disney!"
+            "message": "Merry Christmas! You're going to rock Regina! ERMERGERD!"
         },
         {
             "id": "anna8",
             "name": "Dan & Sadie",
-            "message": "Merry Christmas to you, Anna, and Zane!"
+            "message": "Merry Christmas to you both, Anna, Kiki, and Zane!"
         },
         {
             "id": "scheirer88",
-            "name": "Chris",
-            "message": "Merry Christmas to my best friend! Cannot wait to travel the Galaxy with you!"
+            "name": "Chris & Sam",
+            "message": "Merry Christmas! Make sure to spoil Sam!"
         },
 		{
 		    "id": "wdwmarriage",
             "name": "Scott & Jade",
-            "message": "Merry Christmas and cannot wait for you to head to Walt Disney World!"
+            "message": "Merry Christmas and I'm glad you both now have a washing machine! Welcome to 2012!"
 		},
 		{
 			"id": "cjme980",
-            "name": "Sam",
-            "message": "Merry Christmas to you and your family! Hope it's a gooder."
+            "name": "Samantha",
+            "message": "Merry Christmas to you and your family! You and John will rock the show!"
 		},
 		{
 			"id": "cutebutton",
             "name": "Patrick",
-            "message": "Merry Christmas to you and your family! Let's hope for snow!"
+            "message": "Merry Christmas to my favourite Californian. VISIT SOON!"
 		},
 		{
 			"id": "brewer",
@@ -66,14 +66,14 @@
             "message": "Merry Christmas to both of you and your families!"
 		},
 		{
-			"id": "utsunomiya",
-            "name": "Sharney",
-            "message": "Merry Christmas to you and your family! Japan was soo long ago! I miss it."
+			"id": "sakura",
+            "name": "ゆき",
+            "message": "メーリークリスマス！来年僕は日本に行って住んでいる！あなたは会いますよ！"
 		},
 		{
 			"id": "cousin",
             "name": "Don Mah",
-            "message": "Merry Christmas! Tsuripuru Sukupu! -_-; "
+            "message": "Merry Christmas to my favourite 1/4 asian brother from a white mother. "
 		},
 		{
 			"id": "parham",
@@ -83,7 +83,7 @@
 		{
 			"id": "amazingrace",
             "name": "Corey",
-            "message": "Merry Christmas! We both miss you very much and cannot wait for you to come home!"
+            "message": "Merry Christmas! Let's get our asses on The Amazing Race and win it!"
 		},
 		{
 			"id": "ember",
@@ -93,7 +93,7 @@
 		{
 			"id": "toofarr",
             "name": "Andrea",
-            "message": "Merry Christmas to you and your family! It's been a long time since I've seen you! I hope things are well! Tons of love."
+            "message": "Merry Christmas to you and your family! All the best!"
 		},
 		{
 			"id": "mandee",
@@ -103,7 +103,12 @@
 		{
 			"id": "merrychristmas",
             "name": "From The Nilghes",
-            "message": "Merry Christmas to you and your family! All the best in 2012!"
-		}
+            "message": "Merry Christmas to you and your family! All the best in 2013!"
+		},
+        {
+            "id": "banana",
+            "name": "Kevin Jesus",
+            "message": "Merry Christmas to you and your family! It's your birthday, twice! Two cannibals are eating a clown. One says to the other: 'Does this taste funny to you?'"
+        }
     ]
 }
