@@ -32,7 +32,7 @@
 		},
 		{
 			"id": "cutebutton",
-            "name": "Patrick",
+            "name": "Patrick Button",
             "message": "Merry Christmas to my favourite Californian. VISIT SOON!"
 		},
 		{
@@ -82,12 +82,12 @@
 		},
 		{
 			"id": "amazingrace",
-            "name": "Corey",
+            "name": "Corey Waldner",
             "message": "Merry Christmas! Let's get our asses on The Amazing Race and win it!"
 		},
 		{
 			"id": "ember",
-            "name": "Trevor",
+            "name": "Trevor Humphrey",
             "message": "Merry Christmas to you and your family! You better come visit soon!"
 		},
 		{
@@ -112,7 +112,7 @@
         },
         {
             "id": "hodgson",
-            "name": "Christopher",
+            "name": "Christopher Hodgson",
             "message": "Merry Christmas to you and yours! All the best in 2013!"
         },
         {
@@ -127,22 +127,22 @@
         },
         {
             "id": "mcds",
-            "name": "Ashley",
+            "name": "Ashley Peterson",
             "message": "Merry Christmas to you and yours! All the best in 2013!"
         },
         {
             "id": "stc",
-            "name": "Ryan",
+            "name": "Ryan Thomas",
             "message": "Merry Christmas to you and yours! All the best in 2013!"
         },
         {
             "id": "17thstreet",
-            "name": "Darla",
+            "name": "Darla Issac",
             "message": "Merry Christmas to you and yours! All the best in 2013!"
         },
         {
             "id": "animalkingdom",
-            "name": "Christopher",
+            "name": "Christopher Lowry",
             "message": "Merry Christmas to you and yours! Have a magical 2013!"
         },
         {
@@ -167,12 +167,12 @@
         },
         {
             "id": "amazingkevin",
-            "name": "Kevin",
+            "name": "Kevin Quigley",
             "message": "Merry Christmas to you and yours! All the best in 2013! Let's meet up soon!"
         },
         {
             "id": "moose",
-            "name": "Brett",
+            "name": "Brett Young",
             "message": "Merry Christmas to you and yours! All the best in 2013! Let's meet up soon!"
         }
     ]
