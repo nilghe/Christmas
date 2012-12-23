@@ -1,16 +1,27 @@
 /* Author: Chris Nilghe
-
+   version: 1.0.1
+   updated: December 22nd, 2012
 */
 $(document).ready(function() {
 
+	var queryString = GetQueryString('code');
+
+	/* If card code exists in the query string then display the get card button
+	 * Otherwise allow the user to enter a code */
+	(queryString != null) ? $('#code-enter').hide() : $('#no-code').hide();
+
     $('#entercode').click(function() {
-        checkCode($('#usercode').val());
+        getCard($('#usercode').val());
+    });    
+
+    $('#get-card').click(function() {
+        getCard(queryString);
     });
 
 });
 
-/* Check the code the user entered to see if they have a card */
-function checkCode(code) {
+/* Get the users card */
+function getCard(code) {
 
 	var hasCard = false;
 
@@ -50,7 +61,11 @@ function checkCode(code) {
 	    }
 	    else
 	    {
-	        alert("Sorry there is no card for you");
+	        alert("Sorry, the code you entered is invalid. Try entering it again. If the error persists please contact Chris. ");
+	        
+	        /* If the query string did not work then allow the user to enter it manually */
+	        $('#code-enter').show(); 
+	        $('#no-code').hide();
 	    }
 
     });
@@ -95,12 +110,25 @@ function showCard() {
 
 		//Display Card
 		$('#card-wrapper').show();
-		$('#card-wrapper').animate({"height":"500px"}, 2000, function(){
+		$('#card-wrapper').animate({"height":"450px"}, 2000, function(){
 			$('#message').fadeIn('slow');
 		});
 	});
 }
 
+//Get query string
+function GetQueryString(param) {
+    var pageURL = window.location.search.substring(1);
+    var urlVariables = pageURL.split('&');
+    for (var i = 0; i < urlVariables.length; i++) 
+    {
+        var parameterName = urlVariables[i].split('=');
+        if (parameterName[0] == param) 
+        {
+            return parameterName[1];
+        }
+    }
+}
 
 
 

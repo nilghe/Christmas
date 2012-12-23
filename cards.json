@@ -33,7 +33,7 @@
 		{
 			"id": "cutebutton",
             "name": "Patrick Button",
-            "message": "Merry Christmas to my favourite Californian. VISIT SOON!"
+            "message": "Merry Christmas to my favourite Californian. Make sure you come visit soon!"
 		},
 		{
 			"id": "brewer",
@@ -67,7 +67,7 @@
 		},
 		{
 			"id": "sakura",
-            "name": "ゆき",
+            "name": "手塚 由貴",
             "message": "メーリークリスマス！来年僕は日本に行って住んでいる！あなたは会いますよ！"
 		},
 		{
@@ -174,6 +174,11 @@
             "id": "moose",
             "name": "Brett Young",
             "message": "Merry Christmas to you and yours! All the best in 2013! Let's meet up soon!"
+        },
+        {
+            "id": "wetlands",
+            "name": "Anson Main",
+            "message": "Toot toot, queef, toot, queef queef. That's Merry Christmas in Anson-nesse. So, Merry Christmas!"
         }
     ]
 }

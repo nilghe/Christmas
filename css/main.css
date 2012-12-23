@@ -92,7 +92,7 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-body { background-image: url('../img/paper.gif'); /*overflow: hidden;*/ }
+body { background-image: url('../img/paper.gif'); overflow: hidden; }
 header,footer { font-family: 'Mr De Haviland', cursive; font-size: 8em; height: 60px; margin: 0 auto; padding: 15px 0; text-align:center; width:50%; }
 #loader { display: none; background-color: black; height: 100%; filter: alpha(opacity=50); opacity: 0.5; position: absolute; width: 100%; z-index: 1; }
 #redboxVertical { height: 100%; right: 80px; top: 0; position: fixed; width: 150px; z-index: -1;}
@@ -122,6 +122,23 @@ header,footer { font-family: 'Mr De Haviland', cursive; font-size: 8em; height: 
         
         .button:hover { border-top-color: #d65858; background: #d65858; color: #cccccc; }
         .button:active { border-top-color: #5c1b1b; background: #5c1b1b; }
+
+/* Letter Template */
+#no-overflow { overflow: x; }
+.letter { width: 50%; margin: 0 auto; }
+
+/* ==========================================================================
+   HTML5 Boilerplate Overrides
+   ========================================================================== */
+::-moz-selection {
+    background: #FFB6B0;
+    text-shadow: none;
+}
+
+::selection {
+    background: #FFB6B0;
+    text-shadow: none;
+}
 
 /* ==========================================================================
    Helper classes

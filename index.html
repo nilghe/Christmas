@@ -7,12 +7,13 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Christmas 2012</title>
-        <meta name="description" content="Christmas Cards from Chris Nilghe">
+        <meta name="description" content="Merry Christmas - Christmas Cards from Chris Nilghe for 2012">
         <meta name="author" content="Chris Nilghe">
         <meta name="viewport" content="width=device-width">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
         <link href="http://fonts.googleapis.com/css?family=Cagliostro|Mr+De+Haviland" rel="stylesheet" type="text/css">
+        <link rel="shortcut icon" href="favicon.ico" />
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
@@ -34,12 +35,21 @@
                     <div class ="loadingText" id="loadingTwo">Elves have received your request</div>
                     <div class ="loadingText" id="loadingThree">Card is being delivered via Magic Post</div>
                     
+                    <!-- If the URL contains their card code then do not display the 'enter code' box 
+                         Instead show a button so they can retrieve the card -->
+
                     <!-- Code Enter -->
                     <div id="instruction">
-                        <p>Enter your code to receive your greeting!</p>
-                        <div id="codeinput">
-                            <input type=text id="usercode" />
-                            <input type=button id="entercode" class="button" value="Enter Code" />
+                        <div id="code-enter">
+                            <p>Enter your code to receive your greeting!</p>
+                            <div id="codeinput">
+                                <input type=text id="usercode" />
+                                <input type=button id="entercode" class="button" value="Enter Code" />
+                            </div>
+                        </div>
+                        <div id="no-code">
+                            <p>Click to retrieve your Christmas surprise!</p>
+                            <input type=button id="get-card" class="button" value="Get Your Card Now!" />
                         </div>
                     </div>
             
