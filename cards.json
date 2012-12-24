@@ -184,6 +184,16 @@
             "id": "hobbit",
             "name": "Brett Wilson",
             "message": "Merry Christmas Brett! Wish you were here and we miss you like crazy! All the best in 2013."
+        },
+        {
+            "id": "boardgames",
+            "name": "Josephson Family",
+            "message": "Merry Christmas to you and yours! All the best in 2013!"
+        },
+        {
+            "id": "cree",
+            "name": "Iron Family",
+            "message": "Merry Christmas to you and yours! All the best in 2013! Now let's go for coffee."
         }
     ]
 }
